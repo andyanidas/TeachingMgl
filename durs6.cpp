@@ -9,18 +9,16 @@ int main(){
 	
 	
 	for(int i = 0; i<s ; i++){
-		for(int k = i+1; k<=s; k++){
-			cout<<"*";
-		}
-		
-		for(int j = 0; j<i; j++){
+		for(int k = 0 ; k<i ; k++){
 			cout<<" ";
 		}
+		
+		for(int j = 0; j<s; j++){
+			cout<<"*";
+		}
 		cout<<endl;
+		
 	}
-	
-
-	
 	
 	
 	return 0;
