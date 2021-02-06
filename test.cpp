@@ -3,20 +3,12 @@
 using namespace std;
 
 int main(){
-	int s;
-	//cin>>s;
+	string s,s1;
+	cin>>s;
+	cin.ignore();
+	getline(cin,s1);
 	
-	for(int j = 0; j<10 ; j++){
-		for(int i = 0; i<10-j-1 ; i++){
-			cout<<" ";
-		}
-		for(int i = 0; i<10 ; i++){
-			cout<<"*";
-		}
-		cout<<endl;
-	}
-	
-	
+	cout<<"s = "<<s<<endl<<"s1 = "<<s1;
 	
 	
 	return 0;
